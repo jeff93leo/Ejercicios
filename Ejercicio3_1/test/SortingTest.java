@@ -19,7 +19,7 @@ import static org.junit.Assert.*;
 
 public class SortingTest {
     
-    int max= 2000; 
+    int max= 2000; //numero maxximo a implementas en la lista y tamaño de lista
     
     
     

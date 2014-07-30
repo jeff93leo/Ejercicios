@@ -3,6 +3,7 @@ Universidad del Valle de Guatemala
 Ixim Cojtí	carné: 12697
 Jefferson Silva carné:12605
 Pablo Samayoa carné:12635
+Diego carné: 
 
 sección: 20
 Main.java
