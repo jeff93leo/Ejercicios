@@ -34,7 +34,7 @@ public class Main {
 Integer[] Lista = new  Integer[11];        
 //Un texto cualquiera guardado en una variable
 // el archivo a leer
-File f = new File( "C:\\Users\\Karla Silva\\Documents\\NetBeansProjects\\Ejercicio3_1\\texto.txt" ); //arhicvo que se leera
+File f = new File( "texto.txt" ); //arhicvo que se leera se creaa la direccion del archivo copiar ruta completa 
 BufferedReader entrada;//lectura de archivo 
 String elemento; //el numero elido
 String linea; //LIENA A LEER
@@ -54,8 +54,8 @@ int cantidad4=0;
 
 try
 {
-//Crear un objeto File se encarga de crear o abrir acceso a un archivo que se especifica en su constructor
-File archivo=new File("texto.txt");
+//Crear un objeto File se encarga de crear o abrir acceso a un archivo que se especifica en su constructor 
+File archivo=new File("texto.txt"); //se crea donde esta el archivo Main.java 
 
 //Crear objeto FileWriter que sera el que nos ayude a escribir sobre archivo
 FileWriter escribir=new FileWriter(archivo,true);
